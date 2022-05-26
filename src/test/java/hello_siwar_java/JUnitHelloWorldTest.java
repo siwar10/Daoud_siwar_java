@@ -13,7 +13,7 @@ public class JUnitHelloWorldTest {
  
  	@Before
     public void setUp() { 
-        setBaseUrl("http://127.0.0.1/hello-siwar-1.0");
+        setBaseUrl("http://192.168.1.108:80//hello-siwar-1.0");
     }
 	 
         @Test
